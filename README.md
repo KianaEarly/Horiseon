@@ -5,6 +5,3 @@ This is a ladning page for the Horiseon company. It was built with semantic html
 
 ## Deployed
 https://kianaearly.github.io/Horiseon/ 
-
-
-![Uploading Horiseon Screenshot.png…]()
