@@ -4,10 +4,11 @@
     margin: 0;
 }
 
+/* This element changes the background color of the body */
 body {
     background-color: #d9dcd6;
 }
-
+ /* This targets the header and creates the font family and background color for the header as well as a padding */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* This element displays the block in line with the other text and determines the font-size. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This element changes the fot color. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This element adds padding, a margin, floats the box to the right, assigns a font-family, as well as font-size. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ body {
     font-size: 20px;
 }
 
+/* This element sets the bullet-points and how they appaer. In this case there are none. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* This element is setting where the list will appear on screen */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This is setting the color of the list or would be bullet points. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This is applying a font size to the paragraphs. */
 p {
     font-size: 16px;
 }
 
+/* This is setting the height, width, and margin of the class hero. It is also including a background image, telling that image to cover the exsisting box and centering it. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +68,26 @@ p {
     background-position: center;
 }
 
+/* This is floating the box left and giving it a margin of 25px. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This is floating the box right and giving it a margin of 25px. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* This is sets the width to 75%, displayes in element as an inline level block container. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This targets the benefit class. The clear property allows both sides of the box to float. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,23 +99,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets a bottom margin and color. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Sets a bottom margin and algins the text */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Blocks the display, gives it a margin and a max-width. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Assigns a margin bottom, padding around the element, height, font-family, etc */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +128,18 @@ p {
     color: #ffffff;
 }
 
+/* Gives a max-height to the images */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Gives a margin-bottom and font-size to h2*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Gives padding, allows both sides to float, gives font-family, and aligns the text.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +147,7 @@ p {
     text-align: center;
 }
 
+/* Applies a font-size to the footer h2. */
 .footer h2 {
     font-size: 20px;
 }
